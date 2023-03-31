@@ -1,6 +1,7 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
   </head>
   <body><!--1.0.4-->
 
@@ -14,7 +15,18 @@
     <a-sky src="#sky"></a-sky> 
 
     <a-entity gltf-model="#city"></a-entity>
-    <a-box color="#00AA00" position="3 2 2"></a-box>
+
+    <a-camera>
+      <a-cursor></a-cursor>
+    </a-camera>
+  </a-scene>
+</body>
+
+
+    <a-camera>
+      <a-cursor></a-cursor>
+    </a-camera>
+  <!--  <a-box color="#00AA00" position="3 2 2"></a-box>
      <script>
       var box=document.querySelector('a-box');
       box.addEventListener("click",function()
@@ -27,7 +39,7 @@
      </script>
 
 
-   <!-- <a-entity id="cam" camera position="3 4 2" look-controls></a-entity>  --> 
+    <a-entity id="cam" camera position="3 4 2" look-controls></a-entity>  --> 
     </a-scene>
   </body>
 </html>
