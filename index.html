@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  </head>
+  <body><!--1.0.4-->
+
+    <a-scene>
+     
+    <a-assets>
+        <img id="sky" src="pi.jpg">
+        <a-asset-item id="city" src="scene.gltf"></a-asset-item>
+    </a-assets>
+
+    <a-sky src="#sky"></a-sky> 
+
+    <a-entity gltf-model="#city"></a-entity>
+    <a-box color="#00AA00" position="3 2 2"></a-box>
+     <script>
+      var box=document.querySelector('a-box');
+      box.addEventListener("click",function()
+      {
+        box.setAttribute("scale",
+        {
+         color:"#000000"
+        });
+      });
+     </script>
+
+
+   <!-- <a-entity id="cam" camera position="3 4 2" look-controls></a-entity>  --> 
+    </a-scene>
+  </body>
+</html>

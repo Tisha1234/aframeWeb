@@ -1,0 +1,11 @@
+Model Information:
+* title:	City Scene Tokyo
+* source:	https://sketchfab.com/3d-models/city-scene-tokyo-b25d23ff186949dca3df669c14447db5
+* author:	Sooi Cherchye (https://sketchfab.com/sooi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "City Scene Tokyo" (https://sketchfab.com/3d-models/city-scene-tokyo-b25d23ff186949dca3df669c14447db5) by Sooi Cherchye (https://sketchfab.com/sooi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
